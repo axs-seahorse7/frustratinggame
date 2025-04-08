@@ -128,10 +128,10 @@ export default function MazeGame() {
         </motion.div>
       </div>
       <div className="mt-4 flex space-x-2">
-        <button className="bg-gray-700 text-white p-2" onClick={() => movePlayer(0, -1)}>Up</button>
-        <button className="bg-gray-700 text-white p-2" onClick={() => movePlayer(0, 1)}>Down</button>
+        <button className="bg-gray-700 text-white p-2" onClick={() => movePlayer(0, -1)}><i className="ri-arrow-up-line"></i></button>
+        <button className="bg-gray-700 text-white p-2" onClick={() => movePlayer(0, 1)}><i className="ri-arrow-down-line"></i></button>
         <button className="bg-gray-700 text-white p-2" onClick={() => movePlayer(-1, 0)}>Left</button>
-        <button className="bg-gray-700 text-white p-2" onClick={() => movePlayer(1, 0)}>Right</button>
+        <button className="bg-gray-700 text-white p-2" onClick={() => movePlayer(1, 0)}><i className="ri-arrow-right-line"></i></button>
       </div>
     </div>
   );
